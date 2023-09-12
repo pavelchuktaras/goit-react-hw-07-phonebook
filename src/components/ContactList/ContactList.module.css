@@ -1,0 +1,36 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    width: 400px;
+  }
+  
+  .wrap {
+    display: inline-flex;
+    gap: 10px;
+  }
+  
+  .contact {
+    width: 500px;
+  }
+  
+  .list-btn {
+    margin: auto;
+    padding: 10px 20px; 
+    min-width: 100px; 
+    font-size: 20px; 
+    border: 2px solid grey; 
+    border-radius: 10px; 
+    cursor: pointer;
+    background-color: transparent;
+    transition: background-color cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  
+  .list-btn:hover,
+  .list-btn:focus {
+    background-color: crimson;
+    transition: background-color cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  
